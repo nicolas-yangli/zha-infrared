@@ -1,0 +1,11 @@
+{
+  "domain": "zha_infrared",
+  "name": "ZHA Infrared Bridge",
+  "codeowners": ["@nicolas-yangli"],
+  "config_flow": true,
+  "dependencies": ["zha", "infrared"],
+  "documentation": "https://github.com/nicolas-yangli/zha-infrared",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/nicolas-yangli/zha-infrared/issues",
+  "version": "0.1.0"
+}

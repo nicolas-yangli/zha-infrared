@@ -1,0 +1,17 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add ZHA Infrared Blaster",
+        "description": "Select your ZHA TS1201 IR blaster device to expose it as a native Home Assistant infrared entity.",
+        "data": {
+          "ieee": "Zigbee Device (IEEE)",
+          "endpoint_id": "Endpoint ID"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This ZHA infrared device endpoint is already configured."
+    }
+  }
+}

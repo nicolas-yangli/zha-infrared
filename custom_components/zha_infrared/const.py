@@ -1,0 +1,13 @@
+"""Constants for the ZHA Infrared Bridge integration."""
+
+DOMAIN = "zha_infrared"
+
+CONF_IEEE = "ieee"
+CONF_ENDPOINT_ID = "endpoint_id"
+
+DEFAULT_ENDPOINT_ID = 1
+DEFAULT_IR_FREQUENCY = 38000
+MIN_IR_FREQUENCY = 30000
+
+ZOSUNG_IR_CONTROL_CLUSTER = 0xE004
+ZOSUNG_CMD_IR_SEND = 0x02
